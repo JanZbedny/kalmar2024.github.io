@@ -3,7 +3,8 @@ layout: default
 title: Home
 ---
 
-# Hi, I’m Tomek
+# Cześć jestem Tomek
+
 
 I build simple, fast websites and small tools.
 
@@ -12,8 +13,11 @@ I build simple, fast websites and small tools.
 - Informacje różne — Do przeczytania, wypróbowania na własną odpowiedzialność.(#)
 - Kontakt — Dla wytrwałych, szukajcie. Wyzwanie!!!. [Details](#)
 
+Strona stworzona z ciekawości.
+
+
 ## About
-A sentence or two about you and what you like working on.
+Będą zmiany wyglądu i treści.
 
 ## Contact
 Email: you@example.com 
