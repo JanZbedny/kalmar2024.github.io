@@ -54,7 +54,20 @@ body {
   max-width: 900px;
 }
 
+/* Zdjęcie w sidebarze */
+.sidebar-photo {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
 
+.sidebar-photo img {
+  width: 120px;        /* możesz zmienić np. na 100px */
+  height: 120px;
+  border-radius: 50%;  /* okrągłe zdjęcie */
+  object-fit: cover;
+  border: 3px solid #ddd;
+}
 
 #dark-toggle {
   position: fixed;
