@@ -15,18 +15,26 @@ layout: default
 
 ## 🎓 Wykształcenie — Oś czasu
 
-<div class="timeline cv-timeline">
-  {% for item in site.data.education %}
-  <div class="timeline-item">
-    <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-    <div class="timeline-line"></div>
-    <div class="timeline-content">
-      <span class="timeline-year">{{ item.year }}</span>
-      <h3>{{ item.school }}</h3>
-      <p>{{ item.degree }}</p>
+<div class="timeline">
+
+  <div class="entry">
+    <div class="icon">🎓</div>
+    <div class="content">
+      <h3>Szkoła / kierunek</h3>
+      <span class="date">2010 — 2015</span>
+      <p>Opis szkoły, kierunku, kwalifikacji.</p>
     </div>
   </div>
-  {% endfor %}
+
+  <div class="entry">
+    <div class="icon">🎓</div>
+    <div class="content">
+      <h3>Szkoła 2</h3>
+      <span class="date">2007 — 2010</span>
+      <p>Opis drugiej szkoły.</p>
+    </div>
+  </div>
+
 </div>
 
 ---
