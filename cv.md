@@ -11,7 +11,6 @@ layout: default
 - **Telefon:** +48 123 456 789
 - **Adres:** Twoje miasto
 
----
 ## 🎓 Wykształcenie — Oś czasu
 <div class="timeline">
   <div class="entry">
