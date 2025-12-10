@@ -78,6 +78,3 @@ layout: default
 
 ---
 
-
----
-
