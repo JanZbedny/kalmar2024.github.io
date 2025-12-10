@@ -2,6 +2,6 @@
 layout: default
 title: Doświadczenie zawodowe
 ---
-## Kim jestem?
+## Wykształcenie
 
 Nazywam się {{ site.author }} i jestem autorem tej strony.
