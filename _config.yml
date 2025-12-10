@@ -1,9 +1,23 @@
-lang: pl-PL
-title: Kalmar2024
-author: JanZbedny
-remote_theme: mmistakes/minimal-mistakes  # lub inny motyw z GitHub
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
- 
+title: "Moja strona"
+description: "Opis mojej strony"
+theme: jekyll-theme-cayman
+
+# Sidebar menu items
+menu:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about.html"
+  - title: "Blog"
+    url: "/blog/"
+
+# Dark mode
+dark_mode: true
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+
+plugins: []
+
 

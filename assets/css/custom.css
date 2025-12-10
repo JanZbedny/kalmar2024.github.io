@@ -1,8 +1,0 @@
-/* assets/css/custom.css */
-body {
-  background-color: #f0f0f0 !important;  /* Nadpisz kolor tła */
-  font-family: 'Arial', sans-serif !important;
-}
-.page__content {
-  max-width: 900px !important;  /* Nadpisz szerokość treści */
-}

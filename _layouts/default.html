@@ -1,103 +1,39 @@
-<!doctype html>
-<html lang="pl">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Pierwsza strona Tomka</title>
-    <meta name="description" content="Projects, notes, and contact." />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-   <link rel="stylesheet" href="assets/css/overrides.css?v=1">
-    <link rel="stylesheet" href="/assets/css/style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container">
-        <a class="brand" href="/">Tomek</a>
-        <nav class="nav">
-          <a href="#O Mnie">O Mnie</a>
-          <a href="#Opowieści">Opowieści</a>
-          <a href="#Kontakt" class="btn">Kontakt</a>
-        </nav>
-      </div>
-    </header>
+<!DOCTYPE html>
+<html lang="pl" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <aside id="sidebar">
+    <h1>{{ site.title }}</h1>
+    <nav>
+      <ul>
+        {% for item in site.menu %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </aside>
 
-    <main>
-      <section class="hero">
-        <div class="container">
+  <main id="content">
+    {{ content }}
+  </main>
 
-
-          <h1>Cześć Jestem Tomek</h1>
-          <p class="lead">Na początek jest tu pusto, ale to się zmieni wkrótce.</p>
-
-
-          <h1>Hi, I’m Tomek</h1>
-          <p class="lead">I build simple, fast websites and small tools. Here are some recent projects.</p>
-=======
-          <h1>Cześć jestem Tomek</h1>
-          <p class="lead">Strona stworzona z ciekawości, pierwsza próba.</p>
-
-         
-
-        </div>
-      </section>
-
-      <section id="O Mnie" class="section">
-        <div class="container">
-
-          <h2>Strona główna</h2>
-          <div class="grid">
-            <article class="card">
-              <h3>O Mnie</h3>
-              <p>Jestem i nie Jestem</p>
-            
-            </article>
-            <article class="card">
-              <h3>Informacje różne</h3>
-              <p>Do przeczytania, wypróbowania na własną odpowiedzialność.</p>
-              
-            </article>
-            <article class="card">
-              <h3>Kontakt</h3>
-              <p>Dla wytrwałych, szukajcie. Wyzwanie!!!!!!.</p>
-        
-
-          <h2>O Mnie</h2>
-          <div class="grid">
-            <article class="card">
-              <h3>O Mnie</h3>
-              <p>Dlaczego ? Po co ?.</p>
-              <a class="link" href="#">Szczegóły →</a>
-            </article>
-            <article class="card">
-              <h3>Opowieści różnej treści</h3>
-              <p>Opowieści dziwne.</p>
-              <a class="link" href="#">Szczegóły →</a>
-            </article>
-            <article class="card">
-              <h3>Kontakt</h3>
-              <p>Wkrótce dane będą widoczne.</p>
-              <a class="link" href="#">Szczegóły →</a>
-
-            </article>
-          </div>
-        </div>
-      </section>
-    </main>
-
-
-     <footer>
-    <p>&copy; {{ site.author }} {{ "now" | date: "%Y" }}. Wszelkie prawa zastrzeżone.</p>
+  <footer>
+    <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}</p>
   </footer>
-=======
-      <footer class="site-footer">
-      <div class="container">
-        <p>© <span id="year"></span> Tomek · Built with GitHub Pages</p>
-      </div>
-    </footer>
 
+  <button id="dark-toggle">🌓</button>
 
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-  </body>
+  <script>
+    const toggle = document.getElementById('dark-toggle');
+    toggle.addEventListener('click', () => {
+      const theme = document.documentElement.getAttribute('data-theme');
+      document.documentElement.setAttribute('data-theme', theme === 'light' ? 'dark' : 'light');
+    });
+  </script>
+</body>
 </html>
