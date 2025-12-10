@@ -1,6 +1,6 @@
 title: Tomek
 description: Moja strona
-baseurl: "" # bez "/" jeśli strona jest na root repo
+baseurl: ""
 url: "https://janzbedny.github.io"
 theme: jekyll-theme-cayman
 
@@ -8,3 +8,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+menu:
+  - title: Strona główna
+    url: /
+  - title: O mnie
+    url: /about.md
+  - title: Blog
+    url: /blog/
