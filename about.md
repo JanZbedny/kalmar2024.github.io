@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Doświadczenie zawodowe
+title: Wykształcenie
 ---
 ## Kim jestem?
 
