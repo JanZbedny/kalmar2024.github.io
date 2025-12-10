@@ -1,6 +1,6 @@
 ---
 layout: default
-title: O Mnie
+title: Doświadczenie zawodowe
 ---
 ## Kim jestem?
 
