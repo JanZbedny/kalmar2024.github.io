@@ -1,6 +1,6 @@
 ---
 layout: default
-title: O mnie
+title: O mMie
 ---
 ## Kim jestem?
 
