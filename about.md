@@ -15,8 +15,9 @@ title: Wykształcenie
   Poziom wykształcenia: zawodowe
 - 09.1994 – 08.1998 (4 lata)
   Liceum Ogólnokształcące im. Jana III Sobieskiego
+---
 
-# Doświadczenie zawodowe
+## 💼 Doświadczenie zawodowe
 - 05.2019 – 12.2022 (3 lata 8 mies.)
   ds. obsługi informatycznej Gmina Świętajno Świętajno
   Krótki opis stanowiska: Administracja systemami informatycznymi, zapewnienie bezpieczeństwa, redaktor strony urzędu,
@@ -37,4 +38,4 @@ title: Wykształcenie
   realizacja zamówień, przygotowanie, pakowanie i wysyłka towarów, obsługa
   systemy do wypisywania przesyłek UPS World Ship 2012, wspieranie prac
   działu handlowego.
-
+---
