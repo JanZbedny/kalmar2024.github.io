@@ -29,17 +29,16 @@ layout: default
       <span class="date">1998 — 2000</span>
       <p>Technik Informatyk | Zawodowe.</p>
     </div>
- </div>
+ 
      <div class="entry">
     <div class="icon">🎓</div>
     <div class="content">
-      <h3>Liceum Ogólno<ształcące/h3>
+      <h3>Liceum Ogólno<ształcące</h3>
       <span class="date">1994 — 1998</span>
       <p>Ogólny | Ogólne.</p>
     </div>
   </div>
- </div>
- </div>        
+ </div>       
 ## 💼 Doświadczenie zawodowe — Oś czasu
 <div class="timeline">
   <div class="entry">
