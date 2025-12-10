@@ -17,11 +17,12 @@ layout: default
   <div class="entry">
     <div class="icon">🎓</div>
     <div class="content">
-      <h3>Olsztyńska Wyższa Szkoła Informatyki i Zarządzania im. Prof. Tadeusza Kotarbińskiego</h3>
+      <h3>Olsztyńska Wyższa Szkoła Informatyki i Zarządzania</h3>
       <span class="date">2007 — 2011</span>
       <p>Administracja Sieciami Komputerowymi | Informatyka | Inżynier.</p>
     </div>
   </div>
+
   <div class="entry">
     <div class="icon">🎓</div>
     <div class="content">
@@ -29,16 +30,17 @@ layout: default
       <span class="date">1998 — 2000</span>
       <p>Technik Informatyk | Zawodowe.</p>
     </div>
- 
-     <div class="entry">
+  </div>
+
+  <div class="entry">
     <div class="icon">🎓</div>
     <div class="content">
-      <h3>Liceum Ogólno<ształcące</h3>
+      <h3>Liceum Ogólnokształcące</h3>
       <span class="date">1994 — 1998</span>
       <p>Ogólny | Ogólne.</p>
     </div>
   </div>
- </div>       
+</div> 
 ## 💼 Doświadczenie zawodowe — Oś czasu
 <div class="timeline">
   <div class="entry">
