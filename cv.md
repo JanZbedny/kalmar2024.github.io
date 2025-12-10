@@ -42,16 +42,6 @@ layout: default
 </div>
 </div>
 
-<div class="entry">
-  <div class="year">2021 – 2023</div>
-  <div class="detail">
-    <strong>Software House XYZ</strong><br>
-    Junior Developer<br>
-    • Tworzenie aplikacji webowych<br>
-    • Praca z JavaScript i Pythonem
-  </div>
-</div>
-
 </div>
 
 ---
