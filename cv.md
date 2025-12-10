@@ -17,7 +17,17 @@ layout: default
 
 ## 🎓 Wykształcenie — Oś czasu
 
+- Rok: "2007–2011"
+  Szkoła: "Olsztyńska Wyższa Szkoła Informatyki i Zarządzania im.Prof. Tadeusza Kotarbińskiego"
+  Poziom wykształcenia: "Inżynier Informatyk"
 
+- Rok: "1998-2000"
+  Szkoła: "Policealne Studium Zawodowe"
+  Poziom wykształcenia: "Technik Informatyk"
+
+- Rok: "1994-1998"
+  Szkoła: "Policealne Studium ZawodoweLiceum Ogólnokształcące im Jana III Sobieskiego"
+  Poziom wykształcenia: "Ogólny"
 ---
 
 ## 💼 Doświadczenie zawodowe — Oś czasu
