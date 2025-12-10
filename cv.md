@@ -12,7 +12,6 @@ layout: default
 - **Adres:** Twoje miasto
 
 ---
-
 ## 🎓 Wykształcenie — Oś czasu
 
 <div class="timeline">
@@ -33,7 +32,7 @@ layout: default
       <span class="date">1998 — 2000</span>
       <p>Technik Informatyk | Zawodowe.</p>
     </div>
-
+ </div>
      <div class="entry">
     <div class="icon">🎓</div>
     <div class="content">
@@ -45,7 +44,6 @@ layout: default
 </div>
 
 ---
-
 ## 💼 Doświadczenie zawodowe — Oś czasu
 
 <div class="timeline">
