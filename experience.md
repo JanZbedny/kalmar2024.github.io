@@ -2,6 +2,7 @@
 layout: default
 title: Doświadczenie zawodowe
 ---
+
 # Doświadczenie zawodowe
 
 - 05.2019 – 12.2022 (3 lata 8 mies.)
