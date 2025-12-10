@@ -33,7 +33,7 @@ layout: default
 - Automatyzacje IT  
 - Sieci komputerowe  
 
-### 🤝 Miękkie
+### 🤝 Zdolności
 - Komunikacja  
 - Praca zespołowa  
 - Analityczne myślenie  
