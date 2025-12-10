@@ -17,9 +17,7 @@ layout: default
 
 ## 🎓 Wykształcenie — Oś czasu
 
-<div class="timeline">
 
-</div>
 
 ---
 
