@@ -4,7 +4,8 @@ layout: default
 ---
 
 # Dane osobowe
-imię i nazwisko: Tomasz Kowalczyk;
-data urodzenia: DD-MM-YY;
-telefon komórkowy: 111-222-333;
-lokalizacja: Szczytno, Polska;
+- Imię i Nazwisko: Tomasz Kowalczyk
+- Data urodzenia: DD-MM-YY
+- Telefon: 111-222-333
+- E-mail: zzzz@fff.com
+- Lokalizacja: Szczytno, Polska
