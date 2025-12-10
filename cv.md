@@ -42,7 +42,6 @@ layout: default
   </div>
 </div> 
 
----
 ## 💼 Doświadczenie zawodowe — Oś czasu
 <div class="timeline">
   <div class="entry">
@@ -70,13 +69,10 @@ layout: default
   </div>
 </div>
 
----
-
 ## 🧠 Umiejętności
 
 - HTML, CSS, Jekyll, GitHub Pages
 - Systemy Windows & Linux
 - Obsługa sprzętu i diagnostyka IT
 
----
 
