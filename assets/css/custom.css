@@ -121,32 +121,43 @@ p {
    ============================ */
 
 .timeline {
-  border-left: 3px solid #007bff;
-  padding-left: 1rem;
-  margin: 1rem 0;
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 30px;
+  border-left: 3px solid var(--accent, #007acc);
 }
 
 .timeline-item {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   position: relative;
 }
 
 .timeline-item::before {
-  content: '';
+  content: "";
   position: absolute;
-  left: -8px;
-  top: 0;
-  width: 12px;
-  height: 12px;
-  background-color: #007bff;
+  left: -11px;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  background: var(--accent, #007acc);
   border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.25);
 }
 
 .timeline-year {
   font-weight: bold;
-  color: #007bff;
+  font-size: 1.1rem;
+  color: var(--accent, #007acc);
+  margin-bottom: 5px;
 }
 
-.timeline-detail {
-  margin-left: 0.5rem;
+.timeline-content h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.timeline-content p {
+  margin: 0;
+  opacity: 0.85;
 }
