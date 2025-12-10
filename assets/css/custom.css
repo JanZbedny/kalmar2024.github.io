@@ -121,36 +121,32 @@ p {
    ============================ */
 
 .timeline {
-  border-left: 3px solid #0074d9;
-  margin-left: 1rem;
-  padding-left: 1.5rem;
+  border-left: 3px solid #007bff;
+  padding-left: 1rem;
+  margin: 1rem 0;
 }
 
-.timeline .entry {
-  margin-bottom: 2rem;
+.timeline-item {
+  margin-bottom: 1rem;
   position: relative;
 }
 
-.timeline .entry::before {
-  content: "";
-  width: 14px;
-  height: 14px;
-  background: #0074d9;
-  border-radius: 50%;
+.timeline-item::before {
+  content: '';
   position: absolute;
-  left: -25px;
-  top: 5px;
+  left: -8px;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #007bff;
+  border-radius: 50%;
 }
 
-.timeline .year {
+.timeline-year {
   font-weight: bold;
-  color: #0074d9;
-  margin-bottom: 0.3rem;
+  color: #007bff;
 }
 
-.timeline .detail {
-  background: #f7f7f7;
-  padding: 0.8rem 1rem;
-  border-radius: 8px;
-  border: 1px solid #ddd;
+.timeline-detail {
+  margin-left: 0.5rem;
 }
