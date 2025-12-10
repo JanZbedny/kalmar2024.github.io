@@ -19,5 +19,3 @@ markdown: kramdown
 highlighter: rouge
 
 plugins: []
-
-
