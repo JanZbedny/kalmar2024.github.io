@@ -1,14 +1,5 @@
-title: inż Tomasz Kowalczyk
-description: 
-baseurl: ""
-url: "https://janzbedny.github.io"
+title: Inż Tomasz Kowalczyk
 theme: jekyll-theme-cayman
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
 menu:
   - title: Dane osobowe
     url: /
