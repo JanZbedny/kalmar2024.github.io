@@ -1,41 +1,118 @@
-/* ==============================
-   POPRAWA CZYTELNOŚCI CAŁEGO TEKSTU
-   ============================== */
+/* ============================
+   GLOBAL STYLE – CLEAN THEME
+   ============================ */
 
-/* Główne paragrafy */
-body, p {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  color: #222; /* ciemny, czytelny tekst */
-  font-weight: 400;
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  background: #f7f7f7;
+  color: #222;
+  margin: 0;
+  padding: 0;
 }
 
-/* Nagłówki */
-h1, h2, h3 {
-  color: #111;
+/* ============================
+   SIDEBAR
+   ============================ */
+
+#sidebar {
+  width: 260px;
+  background: #ffffff;
+  border-right: 1px solid #e3e3e3;
+  padding: 2rem 1.4rem;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+#sidebar h1 {
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
   font-weight: 700;
-  margin-top: 1.4em;
+  color: #111;
 }
 
-/* Zwiększenie czytelności list */
+#sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+#sidebar nav li {
+  margin: 0.6rem 0;
+}
+
+#sidebar nav a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#sidebar nav a:hover {
+  color: #0074d9;
+  text-decoration: underline;
+}
+
+/* Sidebar image */
+.sidebar-photo img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+  border: 2px solid #eee;
+}
+
+/* ============================
+   MAIN CONTENT
+   ============================ */
+
+#content {
+  margin-left: 280px;
+  padding: 2.2rem;
+  background: #fff;
+  min-height: 100vh;
+}
+
+/* More readable headings */
+h1, h2, h3, h4 {
+  color: #111;
+  font-weight: 600;
+  margin-top: 1.6rem;
+}
+
+/* Lists */
 ul, ol {
   padding-left: 1.4em;
   margin-bottom: 1em;
 }
 
-/* Zwiększenie kontrastu linków */
+li {
+  margin-bottom: 0.4em;
+}
+
+/* Links */
 a {
   color: #0066cc;
-  text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-/* Szerszy tekst w kontenerze – wygląda nowocześnie */
-.page-content {
-  max-width: 860px;
-  margin: auto;
-  padding: 30px;
+/* Paragraph spacing */
+p {
+  margin: 0.9rem 0;
+}
+
+/* Improved layout on mobile */
+@media (max-width: 768px) {
+  #sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+  }
+  #content {
+    margin-left: 0;
+    padding: 1.4rem;
+  }
 }
