@@ -12,11 +12,10 @@ layout: default
 | **Informacja**        | **Wartość** |
 |----------------------|-------------|
 | 🧑 Imię i nazwisko    | **Tomasz Kowalczyk** |
-| 🎂 Data urodzenia     | 1993 |
-| 📍 Miejsce zamieszkania | Warszawa |
-| 📞 Telefon            | 600 000 000 |
-| ✉️ E-mail             | example@email.com |
-| 🚗 Prawo jazdy        | Kat. B |
+| 🎂 Data urodzenia     | DD-MM-YYYY|
+| 📍 Miejsce zamieszkania | Olsztyn |
+| 📞 Telefon            | 000 000 000 |
+| ✉️ E-mail             | vvvvJan@protonmail.com |
 
 ---
 
