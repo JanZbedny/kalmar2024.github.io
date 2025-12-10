@@ -78,12 +78,6 @@ layout: default
 
 ---
 
-## 📄 Pobierz pełne CV (PDF)
-
-👉 _Prześlij mi PDF, a przygotuję automatyczne pobieranie tutaj._
-
----
-
 
 ---
 
