@@ -35,7 +35,7 @@ layout: default
     <div class="content">
       <h3>Liceum Ogólno<ształcące/h3>
       <span class="date">1994 — 1998</span>
-      <p>Ogólne.</p>
+      <p>Ogólny | Ogólne.</p>
     </div>
   </div>
  </div>
