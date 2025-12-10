@@ -4,6 +4,6 @@ title: Dane osobowe
 ---
 # Dane osobowe
 
-imię i nazwisko : Tomasz Kowalczyk
+- **Imię i nazwisko:** Jan Kowalski
 
 
