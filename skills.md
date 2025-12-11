@@ -21,7 +21,7 @@ title: Umiejętności
 
 ### **05.2019 – 12.2022** (3 lata 8 mies.)
 **Specjalista ds. obsługi informatycznej**
-[Urząd Gminy w Świętajnie](https://example.com) | Grunwaldzka 15, 12-140 Świętajno
+[Urząd Gminy w Świętajnie](https://www.swietajno.ug.gov.pl/) | Grunwaldzka 15, 12-140 Świętajno
 
 **Obowiązki:**
 - Administracja systemami informatycznymi.
@@ -40,7 +40,7 @@ title: Umiejętności
 
 ### **08.2016 – 05.2019** (2 lata 10 mies.)
 **Magazynier**
-[LAC-MET Sp. z o.o. Sp. k.](https://example.com) | Gnieźnieńska 2, 12-100 Szczytno
+[LAC-MET Sp. z o.o. Sp. k.](https://novum4kids.pl/) | Gnieźnieńska 2, 12-100 Szczytno
 
 **Obowiązki:**
 - Przestrzeganie procedur i instrukcji Systemu Zarządzania Jakością.
@@ -52,7 +52,7 @@ title: Umiejętności
 
 ### **07.2010 – 07.2016** (6 lat 1 mies.)
 **Magazynier**
-[Novum Wyposażenie Placów Zabaw Sławomir Chmieliński](https://example.com) | Gnieźnieńska 2a, 12-100 Szczytno
+[Novum Wyposażenie Placów Zabaw Sławomir Chmieliński](https://novum4kids.pl/) | Gnieźnieńska 2a, 12-100 Szczytno
 
 **Obowiązki:**
 - Przestrzeganie procedur i instrukcji Systemu Zarządzania Jakością.
