@@ -9,27 +9,28 @@
 </head>
 <body>
 
-  <aside id="sidebar">
-    <div class="sidebar-photo">
-    
-  <img src="{{ '/assets/img/logo.webp' | relative_url }}" alt="Foto">
-</div>
+ <aside id="sidebar">
+  <div class="sidebar-photo">
+    <img src="{{ '/assets/img/logo.webp' | relative_url }}" alt="Foto">
+  </div>
 
-    <h1>{{ site.title }}</h1>
-    <nav>
-     <li>
-  <a 
-     href="{{ item.url | relative_url }}" 
-     class="{% if page.url == item.url %}active{% endif %}">
-     {{ item.title }}
-  </a>
-</li>
-    </nav>
-  </aside>
+  <h1>{{ site.title }}</h1>
+  <nav>
+    <ul>
+      {% for item in site.menu %}
+        <li>
+          <a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}active{% endif %}">
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</aside>
 
-  <main id="content">
-    {{ content }}
-  </main>
+<main id="content">
+  {{ content }}
+</main>
   <script>
     const toggle = document.getElementById('dark-toggle');
     toggle.addEventListener('click', () => {
