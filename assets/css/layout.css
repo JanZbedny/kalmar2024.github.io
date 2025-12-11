@@ -20,24 +20,20 @@ body {
 /* ============================
    SIDEBAR
 ============================ */
-
-/* ============================
-   SIDEBAR – WYGLĄD
-=========================== */
 #sidebar {
     width: 260px;
     position: fixed;
-    top:  Njeg0;
+    top: 0;
     left: 0;
     height: 100vh;
-    background-color: #000000;  /* czarne tło sidebaru */
-    color: white;               /* biała czcionka */
+    background-color: #000000 !important; /* czarne tło */
+    color: white !important; /* biała czcionka */
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
 }
 
-/* Avatar / zdjęcie z okrągłą ramką */
+/* Avatar / zdjęcie */
 .sidebar-photo {
     text-align: center;
     margin-bottom: 20px;
@@ -50,13 +46,13 @@ body {
     border: 4px solid #ffffff;
 }
 
-/* Nagłówek – imię */
+/* Nagłówek */
 #sidebar h1 {
     font-size: 1.4rem;
     text-align: center;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    color: white; /* upewnienie się, że nagłówek jest biały */
+    color: white !important;
 }
 
 /* Menu linki */
@@ -69,41 +65,39 @@ body {
     margin: 10px 0;
 }
 #sidebar nav ul li a {
-    color: white;               /* biała czcionka */
+    color: white !important;
     text-decoration: none;
     font-weight: 600;
-    transition: color 0.3s ease, text-decoration 0.3s ease; /* płynne przejście */
+    transition: all 0.3s ease;
 }
 #sidebar nav ul li a:hover,
 #sidebar nav ul li a.active {
-    color: #ff0000;             /* czerwony kolor przy hover/aktywny */
-    text-decoration: underline;
+    color: #ff0000 !important;
+    text-decoration: underline !important;
 }
 
 /* Przycisk Pobierz CV */
+.sidebar-download {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
 .download-btn {
     display: block;
-    background: #333333;       /* ciemnoszare tło przycisku */
+    background: #333333;
     color: white !important;
     text-align: center;
     padding: 12px 14px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
-    margin-top: 20px;
 }
 .download-btn:hover {
-    background: #555555;       /* nieco jaśniejsze tło przy hover */
-    color: #ff0000 !important; /* czerwona czcionka przy hover */
+    background: #555555;
+    color: #ff0000 !important;
     text-decoration: underline;
 }
 
-/* Sekcja download przyklejona do dołu */
-.sidebar-download {
-    margin-top: auto;
-    padding-top: 20px;
-    border-top: 1px solid #333; /* ciemniejsza linia */
-}
 
 
 /* ============================
