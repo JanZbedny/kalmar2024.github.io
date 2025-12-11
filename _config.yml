@@ -2,10 +2,11 @@ title: Tomasz Kowalczyk
 theme: jekyll-theme-cayman
 include:
   - assets/css
+
 menu:
-   - title: Stron główna
+  - title: Strona główna
     url: /
-   - title: Dane osobowe
+  - title: Dane osobowe
     url: /personal.html
   - title: Wykształcenie
     url: /about.html
@@ -13,3 +14,4 @@ menu:
     url: /experience.html
   - title: CV
     url: /cv.html
+
