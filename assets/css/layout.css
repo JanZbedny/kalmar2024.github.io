@@ -1,0 +1,213 @@
+/* ============================
+   VARIABLES
+   ============================ */
+:root {
+  --bg-light: #ffffff;
+  --text-light: #333;
+  --bg-dark: #111;
+  --text-dark: #eee;
+  --primary: #1e90ff;
+}
+
+/* ============================
+   GLOBAL BODY
+   ============================ */
+html[data-theme="light"] {
+  background: var(--bg-light);
+  color: var(--text-light);
+}
+
+html[data-theme="dark"] {
+  background: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* ============================
+   SIDEBAR
+   ============================ */
+#sidebar {
+  width: 260px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background: var(--primary);
+  color: white;
+  padding: 2rem 1.4rem;
+  overflow-y: auto;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+#sidebar h1 {
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.sidebar-photo img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  border: 2px solid #eee;
+}
+
+#sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar nav li {
+  margin: 0.7rem 0;
+}
+
+#sidebar nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#sidebar nav a:hover,
+#sidebar nav a.active {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #0074d9;
+}
+
+/* ============================
+   CONTENT
+   ============================ */
+#content {
+  margin-left: 260px; /* odsunięcie od sidebaru */
+  padding: 2.2rem;
+  width: calc(100% - 260px);
+  background: #fff;
+  box-sizing: border-box;
+  min-height: 100vh;
+  z-index: 1;
+  position: relative;
+}
+
+/* Jeśli wrapper jest używany w Jekyll */
+main#content,
+.page-content,
+.wrapper {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+/* ============================
+   TYPOGRAFIA
+   ============================ */
+h1, h2, h3, h4 {
+  color: #000;
+  font-weight: 600;
+  margin-top: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+p,
+ul, ol {
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #0066cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ============================
+   TIMELINE (CV)
+   ============================ */
+.timeline {
+  position: relative;
+  margin: 40px 0;
+  padding-left: 30px;
+  border-left: 3px solid #3298dc;
+}
+
+.entry {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.entry .icon {
+  position: absolute;
+  left: -42px;
+  top: 0;
+  background: #3298dc;
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.entry .content {
+  padding: 10px 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.entry .content h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.entry .date {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+.entry p {
+  margin-top: 8px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* ============================
+   RESPONSYWNOŚĆ
+   ============================ */
+@media (max-width: 900px) {
+  #sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  #content {
+    margin-left: 0;
+    width: 100%;
+    padding: 1.4rem;
+  }
+}
