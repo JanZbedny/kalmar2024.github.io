@@ -4,10 +4,10 @@ layout: default
 ---
 
 ## 🧑‍💼 Dane osobowe
-- **Imię i nazwisko:** {{ site.title }}
-- **Email:** example@example.com
-- **Telefon:** +48 123 456 789
-- **Adres:** Twoje miasto
+- **Imię i nazwisko:** Tomasz Kowalczyk
+- **Email:** tomasz.kowalczyk79@gmail.com
+- **Telefon:** +48 503 392 080
+- **Adres:** Szczytno, Polska
 ## 🎓 Wykształcenie — Oś czasu
 <div class="timeline">
   <div class="entry">
